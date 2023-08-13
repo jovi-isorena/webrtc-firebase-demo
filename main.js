@@ -4,7 +4,13 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyAH0vyh1a7kLhEwRyJUKXry-qHrtp5pOvM",
+  authDomain: "first-firebase-jovi.firebaseapp.com",
+  projectId: "first-firebase-jovi",
+  storageBucket: "first-firebase-jovi.appspot.com",
+  messagingSenderId: "119716098060",
+  appId: "1:119716098060:web:bd6012a3bd50c15b73be29",
+  measurementId: "G-E6YESVXPZW"
 };
 
 if (!firebase.apps.length) {
